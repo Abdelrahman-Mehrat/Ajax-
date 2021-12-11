@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #000;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        li{
+            text-align: center;
+            margin-bottom: 10px;
+            border:1px solid #000;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+        .littleStyle{
+            width: 200px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <select id="mySelector" class="littleStyle">
+            <option id="all"></option>
+            <option id="t" value="completed">completed</option>
+            <option id="f" value="not_completed"> in progress</option>
+        </select>
+    
+        <button id="reset" class="littleStyle">reset</button>
+    
+        <select id="selectorId" class="littleStyle">
+            <option></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+    
+    <script src="ajax.js"></script>
+</body>
+</html>
